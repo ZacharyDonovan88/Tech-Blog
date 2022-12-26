@@ -33,7 +33,9 @@ button {
 }
   
 button:hover {
-    background-color: #3486eb;
+    background-color: #225ca3cc;
+    color: #000000;
+    box-shadow: 4px 2px 3px 1px rgba(37, 0, 56, 0.371);
 }
   
 .post-list {
@@ -106,7 +108,29 @@ main {
     transition: color .1s;
     margin-left: 16px;
 }
-  
+
+#userStyle {
+    color: #225ca3;
+}
+
+.loginPgStyle {
+    background-color: #ccbaff;
+    border-radius: 10px;
+}
+
+.loginPgStyle div {
+    padding: 10px;
+}
+
+.signPgStyle {
+    background-color: #ccbaff;
+    border-radius: 10px;
+}
+
+.signPgStyle div {
+    padding: 10px;
+}
+
 .btn-no-style:hover {
     background: none;
     color: #3486eb;
@@ -140,12 +164,20 @@ main {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline 2px;
 }
-  
+
+.logInOut {
+    font-size: 20px;
+}
+
 .edit-link {
     display: block;
     margin: -1.5% 0 2% 0;
 }
-  
+
+.logOutBtn {
+    font-size: 19px;
+}
+
 .upvote-btn {
     background-color: #197d0f;
     transition: background-color .1s;
@@ -165,7 +197,7 @@ main {
 }
   
 .comment:nth-child(odd) {
-    background-color: #fff5eb;
+    background-color: #e0e5ff;
 }
   
 .comment .meta {
